@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Belly Button Insanity</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron" style="text-align: center">
+            <h1>Belly Button Insanity</h1>
+            <p>Via some miracle, there might possibly be some charts or something below</p>
+        </div>
+
+        <div class="row">
+            <div class="col-md-2">
+                <h2>This is supposed to be a dropdown</h2>
+                <div id="no clue"></div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <h2><a href="/what goes here">Possibly a pie graph</a></h2>
+            </div>
+        </div>
+
+
+    </div>
+
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+
+</html>
